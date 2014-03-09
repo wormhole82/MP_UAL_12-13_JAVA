@@ -20,8 +20,12 @@ public class UsoInstalacionElectrica {
 		System.out.println("Con bombilla y plancha ON----> "+myInstalacion.getConsumoInstalacion());
 		myInstalacion.getAparato(2).clic();
 		myInstalacion.getAparato(1).clic();
-		System.out.println("Con bombilla y radiador ON---> "+myInstalacion.getConsumoInstalacion());
-		System.out.println(myInstalacion);		
+		System.out.println("Con bombilla y radiador ON---> "+myInstalacion.getConsumoInstalacion()+"\n");
+		System.out.println(myInstalacion);
+		System.out.println("Consumo Total:"+myInstalacion.getConsumoInstalacion()+"\n");
+		myInstalacion.getAparato(2).clic();
+		System.out.println(myInstalacion);
+		System.out.println("Consumo Total:"+myInstalacion.getConsumoInstalacion());
 	}
 
 }

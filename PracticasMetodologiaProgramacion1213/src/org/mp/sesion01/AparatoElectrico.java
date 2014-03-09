@@ -65,6 +65,6 @@ public class AparatoElectrico {
 	
 @Override
 	public String toString() {
-		return this.nombre+" "+ this.potencia + ((this.estado) ? "(On )" : "(Off)");
+		return this.nombre+" "+ this.potencia + ((this.estado) ? "(On)" : "(Off)");
 	}
 }
